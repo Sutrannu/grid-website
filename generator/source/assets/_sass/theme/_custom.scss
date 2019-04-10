@@ -1,0 +1,107 @@
+
+
+html, body, .container-fluid {
+  min-height: 100%;
+}
+body {
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+// Ensure all images are responsive
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+// defaults for brand/logo
+.navbar-brand {
+  height: 60px;
+  padding: 5px 15px;
+
+  .logo {
+    display: block;
+    max-height: 50px;
+
+    .big {
+      max-width: 200px;
+    }
+  }
+}
+
+/* Grid
+  Primary Orange:   EE5D17
+  Secondary Orange: E55A16
+  Highlight:        FF9F71
+  Shade:            953000
+*/
+
+/* Left-side navigation */
+.bs-sidenav {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: none;
+  border-radius: 0;
+  background-color: transparent;
+  overflow-y: auto;
+}
+
+// Top navigation bar
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-inverse, .navbar-default {
+  background-image: none;
+  background-color: #E0E3E0;
+  border-color: #DDD;
+  color: #E55A16;
+}
+.navbar-inverse, .navbar-default .navbar-brand {
+  color: #EE5D17;
+  height: auto;
+  padding: 15px 15px;
+}
+.navbar-inverse, .navbar-default .navbar-text {
+  color: #953000;
+}
+.navbar-inverse, .navbar-default .navbar-nav>li>a {
+  color: #953000;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.post-header {
+  margin-bottom: 2em;
+  padding: 3% 4%;
+  color:#EE5D17;
+  background-color: #FF9F71;
+}
+.post-header img{
+  width: 64px;
+  height: 64px;
+  float: right;
+}
+.post-content {
+  font-size: 140%;
+}
+
+// Side Bar
+.sidebar-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+// Footer
+.site-footer {
+  background-color: #444;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-height: 280px;
+}
+.footer-heading {
+  color: #EE5D17;
+}

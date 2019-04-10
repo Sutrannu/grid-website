@@ -1,8 +1,22 @@
-<!-- Copyright (c) 2014 Rohan Chandra. SPDX-License-Identifier: MIT -->
-<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
-
-{% if site.theme_settings.footer_text %}
 <footer class="site-footer">
-	<p class="text">{{ site.theme_settings.footer_text }}</p>
+
+  <div class="container">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <ul class="text-muted list-unstyled">
+          {% if site.theme_settings.footer_text %}
+          <footer class="site-footer">
+            <p class="text">{{ site.theme_settings.footer_text }}</p>
+          </footer>
+          {% endif %}
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
 </footer>
-{% endif %}

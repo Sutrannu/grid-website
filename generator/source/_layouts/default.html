@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html class="no-js">
-<!-- Copyright (c) 2014 Rohan Chandra. SPDX-License-Identifier: MIT -->
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
   {% include head.html %}
+
   <body>
+
     {% include header.html %}
-    <div class="content">
-      {{ content }}
-    </div>
+
+    <main class="page-content" aria-label="Content">
+      <div class="container-fluid">
+        {{ content }}
+      </div>
+    </main>
+
     {% include footer.html %}
+    {% include jquery.html %}
+    {% include bootstrap-js.html %}
+
   </body>
+
 </html>

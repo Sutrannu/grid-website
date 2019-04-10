@@ -3,5 +3,4 @@
 # https://creativecommons.org/licenses/by/4.0/
 FROM httpd:2.4
 
-COPY ./htdocs/ /usr/local/apache2/htdocs/
 COPY ./webserver/httpd.conf /usr/local/apache2/conf/httpd.conf
