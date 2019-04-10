@@ -1,0 +1,19 @@
+<!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/search.json',
+    searchResultTemplate: '<a class="list-group-item" href="{url}">{title}</a>',
+    noResultsText: '<span class="list-group-item list-group-item-danger">No results found</span>'
+  });
+  function showSearch() {
+    console.log(document.getElementById('results-container').children.length);
+    console.log(document.getElementById('results-content').style.display);
+    if (document.getElementById('results-container').children.length > 0){
+      document.getElementById('results-content').style.display = "block";
+    } else {
+      document.getElementById('results-content').style.display = "none";
+    }
+  }
+</script>

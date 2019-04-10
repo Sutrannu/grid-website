@@ -3,7 +3,7 @@ layout: page
 hide: true
 title: Code of Conduct
 permalink: /community/code_of_conduct/
-feature-img: "images/hero-bg.jpg"
+feature-img: "assets/images/hero-bg.jpg"
 feat_img_size: small
 # Copyright (c) 2018-2019, Bitwise IO, Inc.
 # Copyright (c) 2015-2017, Intel Corporation.

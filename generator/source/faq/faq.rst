@@ -2,7 +2,7 @@
 layout: page
 title: FAQ
 permalink: /faq/
-feature-img: "images/hero-bg.jpg"
+feature-img: "assets/images/hero-bg.jpg"
 feat_img_size: small
 # Copyright (c) 2018, Bitwise IO, Inc.
 # Copyright (c) 2018, Intel Corporation.

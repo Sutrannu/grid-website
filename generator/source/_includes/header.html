@@ -2,7 +2,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.data.header_pages | default: site.header_pages | default: default_paths %}
     {% if page_paths %}
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -25,7 +25,8 @@
                 <li class="{% if my_post.url == page.url %}active{% endif %}"><a class="page-link" href="{{ my_post.url | relative_url }}">{{ my_post.title | escape }}</a></li>
                 {% endif %}
               {% endfor %}
-
+            </ul>
+            {% if site.search %}{% include simple-search-nav.html %}{% endif %}
           </div><!--/.nav-collapse -->
         </div><!--/.container -->
       </nav>

@@ -3,7 +3,7 @@ layout: page
 hide: true
 title: Tracking Issues
 permalink: /community/issue_tracking/
-feature-img: "images/hero-bg.jpg"
+feature-img: "assets/images/hero-bg.jpg"
 feat_img_size: small
 # Copyright (c) 2018-2019, Bitwise IO, Inc.
 # Copyright (c) 2015-2017, Intel Corporation.

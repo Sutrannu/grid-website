@@ -7,13 +7,23 @@
 
     {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="container-fluid">
-        {{ content }}
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="side-column">
+            {% include side-header.html %}
+          </div>
+        </div>
+        <div class="col-md-9">
+          <main class="page-content" aria-label="Content">
+            {{ content }}
+          </main>
+          {% include footer.html %}
+        </div>
       </div>
-    </main>
+    </div>
 
-    {% include footer.html %}
+    {% if site.search %}{% include simple-search-script.html %}{% endif %}
     {% include jquery.html %}
     {% include bootstrap-js.html %}
 
