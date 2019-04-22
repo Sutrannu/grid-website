@@ -21,6 +21,9 @@ sass:
 keep_files: [./*]
 source: ./source
 
+# Enable site search
+search: true
+
 theme_settings:
   title: Hyperledger Grid
   avatar: avatar.png
