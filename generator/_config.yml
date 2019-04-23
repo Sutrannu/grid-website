@@ -23,10 +23,9 @@ source: ./source
 
 # Enable site search
 search: true
+github: hyperledger/grid
 
 theme_settings:
-  title: Hyperledger Grid
-  avatar: avatar.png
   description: "A project to provide a set of shared, reusable tools for building cross-industry supply chain solutions based on distributed ledger platforms"
   header_text: >
      <h1>Hyperledger Grid</h1>
@@ -43,7 +42,6 @@ theme_settings:
   # Icons
   rss: false
   email_address: # Full email address, e.g. "sam@example.com"
-  github: hyperledger/sawtooth-core
   twitter: Hyperledger
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"

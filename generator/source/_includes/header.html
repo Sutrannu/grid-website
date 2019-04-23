@@ -11,7 +11,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            {% include logo.html %}
+            {%- include logo.html -%}
           </div><!--/.navbar-header -->
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -26,7 +26,8 @@
                 {% endif %}
               {% endfor %}
             </ul>
-            {% if site.search %}{% include simple-search-nav.html %}{% endif %}
+            {%- if site.github -%}{%- include site-github.html -%}{%- endif -%}
+            {%- if site.search -%}{%- include simple-search-nav.html -%}{%- endif -%}
           </div><!--/.nav-collapse -->
         </div><!--/.container -->
       </nav>
