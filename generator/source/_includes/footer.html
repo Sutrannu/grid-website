@@ -1,15 +1,18 @@
-<div class="inline-footer site-footer col-md-12" style="background-image: url('/assets/images/logo-dark.png');">
-  <p class="pull-right">
-    <a href="#">Back to top</a>
-  </p>
-  <h2 class="footer-heading">{{ site.title | escape }}</h2>
+<div class="inline-footer site-footer col-md-12">
   <div class="row">
-    <div class="col-sm-12 col-md-8">
-      <ul class="text-muted list-unstyled">
-        {% if site.theme_settings.footer_text %}
-          <p class="text">{{ site.theme_settings.footer_text }}</p>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      <p>
+        {% if site.footer_text %}
+          <p class="text">{{ site.footer_text }}</p>
         {% endif %}
-      </ul>
+      </p>
+    </div>
+    <div class="col-md-4 col-sm-4 hidden-xs text-right">
+        <a href="#">Back to top</a>
+        <br>
+        <br>
+        <img src="{{ site.logo_dark }}">
     </div>
   </div>
 </div>

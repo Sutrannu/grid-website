@@ -5,6 +5,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
 logo: /assets/images/logo-64.png
+logo_dark: /assets/images/logo-bw-light.gif
 title-nav: true
 title: Hyperledger Grid
 
@@ -25,20 +26,20 @@ source: ./source
 search: true
 github: hyperledger/grid
 
+description: "A project to provide a set of shared, reusable tools for building cross-industry supply chain solutions based on distributed ledger platforms"
+header_text: >
+   <h1>Hyperledger Grid</h1>
+footer_text: >
+  <p>
+    <a href="http://www.linuxfoundation.org/privacy" target="_blank" title="Privacy Policy">Privacy Policy</a>
+    •
+    <a href="http://www.linuxfoundation.org/terms" target="_blank" title="Terms of Service">Terms of Service</a>
+  </p>
+  <p>
+    <small class="copyright">Copyright © 2015-2019 contributors to Hyperledger Grid</small>
+  </p>
+permalink: /:categories/:year/:month/:day/:release/:title/
 theme_settings:
-  description: "A project to provide a set of shared, reusable tools for building cross-industry supply chain solutions based on distributed ledger platforms"
-  header_text: >
-     <h1>Hyperledger Grid</h1>
-  footer_text: >
-    <p>
-      <a href="http://www.linuxfoundation.org/privacy" target="_blank" title="Privacy Policy">Privacy Policy</a>
-      •
-      <a href="http://www.linuxfoundation.org/terms" target="_blank" title="Terms of Service">Terms of Service</a>
-    </p>
-    <p>
-      <small class="copyright">Copyright © 2015-2019 contributors to Hyperledger Grid</small>
-    </p>
-  permalink: /:categories/:year/:month/:day/:release/:title/
   # Icons
   rss: false
   email_address: # Full email address, e.g. "sam@example.com"
